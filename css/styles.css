@@ -1,0 +1,215 @@
+body {
+	margin:0;
+    /*background-color: #fff700;*/
+    
+}
+
+.BrandN{
+	font-weight: bold;
+	text-shadow: 3px 3px 5px white ;
+	font-size: 1.8rem;
+}
+/*class for anchor tag in nav tag */
+.NavA{
+  /*font-weight*/
+  color: white;
+  text-shadow: 3px 3px 5px pink ;
+	font-size: 1.2rem; 
+}
+/*div that contains */
+.Intro-div{
+	
+	margin: auto;
+	position: absolute;
+	top: 50%;	
+	width: 100%;
+	transform: translateY(-50%);
+	text-align: center;
+}
+.Intro-div h2 {
+	font-family: 'Lobster', cursive;
+	font-size:40px;
+	text-shadow: 3px 3px 5px gray;
+}
+.Intro-div h4 {
+	color: #2d6187;
+    font-family: 'Lobster', cursive;
+	font-size:30px;
+	text-shadow: 3px 3px 5px #28abb9;
+}
+.FirstSection {
+	background-image: url(../Images/laptopSpecs.jpg);
+	background-size: cover;
+	background-position: center;
+	height:90vh;
+    position: relative;
+}
+/*background for nav tag*/
+.background {
+   background: rgba(0,0,0,0.7) url(../Images/laptopSpecs.jpg);
+   background-size:cover;
+   background-blend-mode: multiply;
+
+}
+.SecondSection {
+    background-image: url(../Images/laptopChair.jpg);
+	background-size: cover;
+	background-position: center;
+	height:100vh;
+    position: relative;	
+    border: 10px solid gray;
+    overflow: scroll;
+}
+.SecondSection h2 {
+	font-size:60px;
+	margin: auto;
+	width: 50%;
+    color: white;
+    font-family: 'Lobster', cursive;
+    text-shadow: 3px 3px 5px red;
+    text-align: center;
+}
+.SecondSection p {
+	padding:15px;
+	margin: auto;
+	width: 100%;
+	top: 20%;
+	text-align: center;
+	text-shadow: 3px 3px 5px green;
+	color: white;
+	position: absolute;
+	line-height: 1cm;
+	font-size: 25px;
+	font-family: 'Goldman', cursive;
+}
+
+.ThirdSection {
+    background-image: url(../Images/wall.jpg);
+	background-size: cover;
+	background-position: center;
+	height:100vh;
+    position: relative;	
+    border: 10px solid gray;
+    
+}
+.ThirdSection h1 {
+	color: white;
+	margin:auto;
+	width: 50%;
+	text-align: center;
+	animation-name: example;
+	animation-duration:4s;
+	animation-iteration-count: infinite;
+}
+.FourthSection {
+ background-image: url(../Images/laptopDisplay.jpg);
+	background-size: cover;
+	background-position: center;
+	height:100vh;
+    position: relative;	
+    border: 10px solid gray;
+    overflow: scroll;
+}
+.NextButtonicon {
+  background-image: url("Images/Arrow.png");
+}
+.PrevButtonicon {
+   background-image: url("Images/Arrow.png");
+}
+.carousel-height {
+	height:80vh;
+
+}
+
+
+/*this is an app-poster*/
+.apps-poster {
+	height: 80vh;
+   margin: auto;
+	position: absolute;
+	top: 50%;	
+	width: 100%;
+	transform: translateY(-50%);
+	text-align: center;
+}
+/*class with carosule item*/
+.adjust-poster {
+	    height: 80vh;
+    /*background-image: url(../Images/laptopChair.jpg);*/
+    background-position: center;
+    background-size: cover;
+}
+/*Animations*/
+@keyframes example {
+	
+	0% {text-shadow: 3px 3px 5px red;}
+	25% {text-shadow: 3px 3px 5px green;}
+	50% {text-shadow: 3px 3px 5px purple;}
+	70% {text-shadow: 3px 3px 5px yellow;}
+	100% {text-shadow: 3px 3px 5px orange;}
+}
+@keyframes for-anchor {
+	50% {text-shadow: 3px 3px 5px #9088d4;}
+	100% {text-shadow: 3px 3px 5px white;}
+}
+.Anchor-Animation{
+	animation-name:for-anchor ;
+	 animation-duration: 2s;
+	 animation-iteration-count: infinite;
+}
+
+.About-Animation {
+	animation-name:example ;
+	 animation-duration: 4s;
+	 animation-iteration-count: infinite;
+}
+.Skills {
+	color: #e8e8e8;
+	width: 100%;
+    text-align: center;
+    height: 100%;
+}
+.Skills table {
+	margin: auto;
+	width: 70%;
+	font-family: Rockwell;
+	font-size:20px;
+	font-weight: normal;
+	  border-collapse: separate;
+        border-spacing: 0 30px;
+        height: 100vh;
+}
+/*Contact Page*/
+.ContactSection {
+	background-image: url("../Images/pinkPlaneSkyCloud.jpg");
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	position: relative;
+}
+/*div inside contact section*/
+.ContactDiv {
+	position: absolute;
+	top: 50%;	
+	width: 100%;
+	transform: translateY(-50%);
+	text-align: center;
+	
+}
+.ContactDiv table  {
+	display: inline-block;
+	border-collapse: separate;
+        border-spacing: 0 30px;
+        animation-duration:4s;
+        animation-name: example;
+        animation-iteration-count: infinite;
+}
+.ContactDiv table thead tr th {
+   color: white ;
+   font-size: 25px;
+}
+.ContactTableContent {
+	font-size:20px;
+	color: #16a596;
+
+}
